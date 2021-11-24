@@ -2,3 +2,40 @@
 文件中的<html> 元素
 文件中的<head> 元素
 文件中的<body> 元素
+
+#文件常用格式
+<pre> 元素 (預先格式化區塊)
+<blockquote> 元素 (引述區塊)
+<address> 元素 (聯絡資訊)
+<hr> 元素 (水平線)
+
+
+#超連結
+<h6> <a href="網址">超連結名稱</a></h6>
+
+#圖片
+如果您的圖片名為 dinosaur.jpg 且與HTML檔案位於同一資料夾中，可以這樣嵌入圖片
+<img src="dinosaur.jpg">
+如果圖片位於名為images的資料夾中，且該目錄與HTML頁面位於同一資料夾
+<img src="images/dinosaur.jpg">
+也可以用絕對路徑URL來嵌入圖片
+<img src="https://www.example.com/images/dinosaur.jpg">
+
+
+#影片嵌入
+https://progressbar.tw/posts/214
+
+
+#音樂嵌入
+src: 音訊資源的位址 (URL)
+preload: 給瀏覽器是否該預載資源的提示。有這些值可以使用：
+none: 不要預載，因為使用者很可能不會播放該音訊，或你想多節省 server 頻寬
+metadata: 使用者很可能不會播放該音訊，但先下載音訊的元數據資料還是必要的
+auto: 使用者很可能會播放該音訊，可以先進行下載
+autoplay: 布林 (boolean) 屬性，控制是否自動播放，預設是 false
+loop: 布林 (boolean) 屬性，控制是否重複播放，預設是 false
+muted: 布林 (boolean) 屬性，控制是否靜音，預設是 false
+controls: 布林 (boolean) 屬性，指定是否顯示音訊控制面板，由瀏覽器提供上面會有播放進度、暫停鈕、播放鈕、靜音鈕等，預設是 false
+網址:https://www.fooish.com/html/audio-tag.html
+
+
